@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_testcode_1715078263840-pr-trigger-input-set
+  identifier: Build_testcode_1715078263840prtriggerinputset
+  orgIdentifier: Product_Security
+  projectIdentifier: Piyush_Onboarding
+  pipeline:
+    identifier: Build_testcode_1715078263840
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
