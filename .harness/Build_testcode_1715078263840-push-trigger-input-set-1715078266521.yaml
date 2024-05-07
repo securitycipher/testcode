@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_testcode_1715078263840-push-trigger-input-set
+  identifier: Build_testcode_1715078263840pushtriggerinputset
+  orgIdentifier: Product_Security
+  projectIdentifier: Piyush_Onboarding
+  pipeline:
+    identifier: Build_testcode_1715078263840
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
